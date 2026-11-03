@@ -34,7 +34,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEmergency, onOpenTelehealt
           {/* Logo & Clinical Brand */}
           <Link to="/" className="flex items-center gap-3 group">
             <img
-              src="./assets/logo.jpeg"
+              src="/assets/logo.jpeg"
               alt="AccessCare Official Logo"
               className="w-11 h-11 rounded-xl object-contain bg-white border border-stone-200 shadow-xs shrink-0 group-hover:scale-105 transition-transform"
             />
@@ -241,7 +241,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEmergency, onOpenTelehealt
         <div className="lg:hidden bg-white border-b border-slate-200 px-4 pt-4 pb-6 max-h-[85vh] overflow-y-auto">
           <div className="flex items-center gap-3 pb-3 mb-3 border-b border-slate-100">
             <img
-              src="./assets/logo.jpeg"
+              src="/assets/logo.jpeg"
               alt="AccessCare Logo"
               className="w-9 h-9 rounded-xl object-contain bg-white border border-stone-200 shadow-xs"
             />

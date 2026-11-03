@@ -33,7 +33,7 @@ export const EditorialMosaic: React.FC = () => {
           {/* Main Large Feature (Cols 1-7, Row 1-2) */}
           <div className="md:col-span-7 md:row-span-2 relative rounded-2xl overflow-hidden bg-stone-100 group">
             <img
-              src="./assets/outreach-tanke-union-Bot_mbBb.jpg"
+              src="/assets/outreach-tanke-union-Bot_mbBb.jpg"
               alt="Tanke Medical Outreach with Union Bank"
               className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
             />
@@ -53,7 +53,7 @@ export const EditorialMosaic: React.FC = () => {
           {/* Top Right 1 (Cols 8-12, Row 1) */}
           <div className="md:col-span-5 relative rounded-2xl overflow-hidden bg-stone-100 group">
             <img
-              src="./assets/gallery-consult-CpVhlEnN.jpeg"
+              src="/assets/gallery-consult-CpVhlEnN.jpeg"
               alt="Community Doctor Consultation"
               className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
             />
@@ -70,7 +70,7 @@ export const EditorialMosaic: React.FC = () => {
           {/* Top Right 2 (Cols 8-12, Row 2) */}
           <div className="md:col-span-5 relative rounded-2xl overflow-hidden bg-stone-100 group">
             <img
-              src="./assets/gallery-school-DPPENE8D.jpeg"
+              src="/assets/gallery-school-DPPENE8D.jpeg"
               alt="Campus & Student Health Drive"
               className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
             />
@@ -87,7 +87,7 @@ export const EditorialMosaic: React.FC = () => {
           {/* Bottom Row - 3 Balanced Cards (Cols 1-4, 5-8, 9-12) */}
           <div className="md:col-span-4 relative rounded-2xl overflow-hidden bg-stone-100 group">
             <img
-              src="./assets/outreach-osogbo-CrFzoCES.jpg"
+              src="/assets/outreach-osogbo-CrFzoCES.jpg"
               alt="Osogbo Medical Outreach"
               className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
             />
@@ -103,7 +103,7 @@ export const EditorialMosaic: React.FC = () => {
 
           <div className="md:col-span-4 relative rounded-2xl overflow-hidden bg-stone-100 group">
             <img
-              src="./assets/outreach-shao-BWy0HMKg.jpg"
+              src="/assets/outreach-shao-BWy0HMKg.jpg"
               alt="Shao Medical Outreach"
               className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
             />
@@ -119,7 +119,7 @@ export const EditorialMosaic: React.FC = () => {
 
           <div className="md:col-span-4 relative rounded-2xl overflow-hidden bg-stone-100 group">
             <img
-              src="./assets/outreach-gambari-D2kJndY_.jpg"
+              src="/assets/outreach-gambari-D2kJndY_.jpg"
               alt="Gambari Medical Outreach"
               className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
             />

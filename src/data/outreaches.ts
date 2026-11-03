@@ -18,7 +18,7 @@ export const PAST_OUTREACHES: Outreach[] = [
     location: 'Nigeria',
     tag: 'Community',
     description: 'BP screening, blood sugar testing, malaria awareness and free consultations.',
-    photo: './assets/outreach-osogbo-CrFzoCES.jpg'
+    photo: '/assets/outreach-osogbo-CrFzoCES.jpg'
   },
   {
     id: 'gambari-2024',
@@ -28,7 +28,7 @@ export const PAST_OUTREACHES: Outreach[] = [
     location: 'Nigeria',
     tag: 'On-Site Team',
     description: 'Health education, screenings and basic preventive care for the community.',
-    photo: './assets/outreach-gambari-D2kJndY_.jpg'
+    photo: '/assets/outreach-gambari-D2kJndY_.jpg'
   },
   {
     id: 'tanke-union-2025',
@@ -38,7 +38,7 @@ export const PAST_OUTREACHES: Outreach[] = [
     location: 'Nigeria',
     tag: 'Tanke × Union Bank',
     description: 'Partnership outreach with Union Bank — screening, drugs and consultation.',
-    photo: './assets/outreach-tanke-union-Bot_mbBb.jpg'
+    photo: '/assets/outreach-tanke-union-Bot_mbBb.jpg'
   },
   {
     id: 'unilorin-su-2025',
@@ -48,7 +48,7 @@ export const PAST_OUTREACHES: Outreach[] = [
     location: 'Nigeria',
     tag: 'Faculty Engagement',
     description: 'Campus-wide medical outreach with the Student Union — screening and education.',
-    photo: './assets/outreach-unilorin-su-PZ8sIFKO.jpg'
+    photo: '/assets/outreach-unilorin-su-PZ8sIFKO.jpg'
   },
   {
     id: 'unilorin-chs-2025',
@@ -58,7 +58,7 @@ export const PAST_OUTREACHES: Outreach[] = [
     location: 'Nigeria',
     tag: 'Health Talks',
     description: 'Health talks, BP and blood sugar checks for students and staff.',
-    photo: './assets/outreach-unilorin-chs-vwdh41Mh.jpg'
+    photo: '/assets/outreach-unilorin-chs-vwdh41Mh.jpg'
   },
   {
     id: 'unilorin-agric-2025',
@@ -68,7 +68,7 @@ export const PAST_OUTREACHES: Outreach[] = [
     location: 'Nigeria',
     tag: 'UNILORIN — Agric',
     description: 'Free screening and consultations for students and faculty members.',
-    photo: './assets/outreach-unilorin-agric-kWNNp8Z_.jpg'
+    photo: '/assets/outreach-unilorin-agric-kWNNp8Z_.jpg'
   },
   {
     id: 'shao-2025',
@@ -78,7 +78,7 @@ export const PAST_OUTREACHES: Outreach[] = [
     location: 'Nigeria',
     tag: 'Care Team',
     description: 'Care for the elderly, free drugs, screening and community health education.',
-    photo: './assets/outreach-shao-BWy0HMKg.jpg'
+    photo: '/assets/outreach-shao-BWy0HMKg.jpg'
   },
   {
     id: 'tanke-rotaract-2025',
@@ -88,7 +88,7 @@ export const PAST_OUTREACHES: Outreach[] = [
     location: 'Nigeria',
     tag: 'Tanke Partners',
     description: 'Partnership outreach with the Rotaract Club — screenings and group health drive.',
-    photo: './assets/outreach-tanke-rotaract-cU7zKZ2e.jpg'
+    photo: '/assets/outreach-tanke-rotaract-cU7zKZ2e.jpg'
   }
 ];
 

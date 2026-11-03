@@ -20,7 +20,7 @@ export const ImpactPage: React.FC = () => {
       <section className="relative py-20 lg:py-28 bg-slate-950 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="./assets/outreach-shao-BWy0HMKg.jpg"
+            src="/assets/outreach-shao-BWy0HMKg.jpg"
             alt="Field Impact"
             className="w-full h-full object-cover filter brightness-[0.3]"
           />

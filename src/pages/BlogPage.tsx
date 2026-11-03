@@ -29,7 +29,7 @@ export const BlogPage: React.FC = () => {
       <section className="relative py-20 lg:py-28 bg-slate-950 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="./assets/gallery-consult-CpVhlEnN.jpeg"
+            src="/assets/gallery-consult-CpVhlEnN.jpeg"
             alt="Health Education"
             className="w-full h-full object-cover filter brightness-[0.3]"
           />

@@ -13,7 +13,7 @@ export const FoundationSpotlight: React.FC = () => {
           {/* Left Visual Half (Cols 1-6) */}
           <div className="lg:col-span-6 relative min-h-[340px] lg:min-h-[460px] overflow-hidden bg-slate-950">
             <img
-              src="./assets/outreach-unilorin-chs-vwdh41Mh.jpg"
+              src="/assets/outreach-unilorin-chs-vwdh41Mh.jpg"
               alt="Community Medical Outreach"
               className="w-full h-full object-cover filter brightness-[0.75] contrast-[1.05]"
             />

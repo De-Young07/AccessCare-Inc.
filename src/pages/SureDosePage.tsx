@@ -33,7 +33,7 @@ export const SureDosePage: React.FC = () => {
       <section className="relative py-20 lg:py-28 bg-slate-950 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="./assets/gallery-school-DPPENE8D.jpeg"
+            src="/assets/gallery-school-DPPENE8D.jpeg"
             alt="SureDose Medication Support"
             className="w-full h-full object-cover filter brightness-[0.3]"
           />

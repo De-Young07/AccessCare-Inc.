@@ -22,7 +22,7 @@ export const AboutPage: React.FC = () => {
       <section className="relative py-20 lg:py-28 bg-slate-950 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="./assets/outreach-team-DcjWv2h-.jpg"
+            src="/assets/outreach-team-DcjWv2h-.jpg"
             alt="AccessCare Team"
             className="w-full h-full object-cover object-center filter brightness-[0.35]"
           />

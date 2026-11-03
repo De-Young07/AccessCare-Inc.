@@ -21,7 +21,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEmergency, onOpenTelehealth })
       {/* Background Image with Cinematic Dark Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="./assets/outreach-team-DcjWv2h-.jpg"
+          src="/assets/outreach-team-DcjWv2h-.jpg"
           alt="AccessCare Medical Outreach Team"
           className="w-full h-full object-cover object-center filter brightness-[0.4] contrast-[1.05]"
         />

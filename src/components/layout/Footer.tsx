@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-2 space-y-3">
             <Link to="/" className="flex items-center gap-3">
               <img
-                src="./assets/logo.jpeg"
+                src="/assets/logo.jpeg"
                 alt="AccessCare Official Logo"
                 className="w-10 h-10 rounded-xl object-contain bg-white shadow-xs shrink-0"
               />
