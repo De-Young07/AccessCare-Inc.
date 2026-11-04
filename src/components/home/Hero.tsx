@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { 
   Ambulance, 
   Calendar, 
+  HeartHandshake,
+  Heart,
   Phone, 
   MapPin, 
   Clock, 
@@ -48,23 +51,39 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEmergency, onOpenTelehealth })
             A unified healthcare ecosystem connecting emergency ambulance response, grassroots mobile clinics, licensed telehealth doctors, and continuous SureDose medication guidance.
           </p>
 
-          {/* Action Button Cluster */}
-          <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 max-w-lg">
+          {/* Action Button Cluster — 4 Direct Pathways */}
+          <div className="pt-2 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-2xl">
             <button
               onClick={onOpenEmergency}
-              className="px-7 py-3.5 rounded-full bg-white hover:bg-slate-100 text-slate-950 font-semibold text-sm transition-all duration-150 flex items-center justify-center gap-2.5 shadow-lg hover:shadow-xl active:scale-[0.98]"
+              className="px-6 py-3.5 rounded-full bg-white hover:bg-slate-100 text-slate-950 font-semibold text-xs sm:text-sm transition-all duration-150 flex items-center justify-center gap-2.5 shadow-lg hover:shadow-xl active:scale-[0.98]"
             >
-              <Ambulance className="w-4 h-4 text-red-600" />
+              <Ambulance className="w-4 h-4 text-red-600 shrink-0" />
               <span>Request Ambulance Dispatch</span>
             </button>
 
             <button
               onClick={onOpenTelehealth}
-              className="px-7 py-3.5 rounded-full bg-white/15 hover:bg-white/25 text-white backdrop-blur-md border border-white/30 font-semibold text-sm transition-all duration-150 flex items-center justify-center gap-2.5 hover:border-white/50 active:scale-[0.98]"
+              className="px-6 py-3.5 rounded-full bg-white/15 hover:bg-white/25 text-white backdrop-blur-md border border-white/30 font-semibold text-xs sm:text-sm transition-all duration-150 flex items-center justify-center gap-2.5 hover:border-white/50 active:scale-[0.98]"
             >
-              <Calendar className="w-4 h-4 text-sky-300" />
+              <Calendar className="w-4 h-4 text-sky-300 shrink-0" />
               <span>Book Doctor Consultation</span>
             </button>
+
+            <Link
+              to="/mobile-health"
+              className="px-6 py-3.5 rounded-full bg-white/15 hover:bg-white/25 text-white backdrop-blur-md border border-white/30 font-semibold text-xs sm:text-sm transition-all duration-150 flex items-center justify-center gap-2.5 hover:border-white/50 active:scale-[0.98]"
+            >
+              <HeartHandshake className="w-4 h-4 text-emerald-300 shrink-0" />
+              <span>Request Mobile Healthcare</span>
+            </Link>
+
+            <Link
+              to="/partner"
+              className="px-6 py-3.5 rounded-full bg-white/15 hover:bg-white/25 text-white backdrop-blur-md border border-white/30 font-semibold text-xs sm:text-sm transition-all duration-150 flex items-center justify-center gap-2.5 hover:border-white/50 active:scale-[0.98]"
+            >
+              <Heart className="w-4 h-4 text-rose-300 shrink-0" />
+              <span>Sponsor Medical Outreach</span>
+            </Link>
           </div>
 
         </div>
